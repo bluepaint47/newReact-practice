@@ -1,0 +1,99 @@
+
+.parent{
+  
+    width: 100%;
+    background-color: rgb(138, 131, 131);
+    padding: 30px;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.card{
+    height: 330px;
+    width: 270px;
+    border-radius: 20px;
+ background-color: white;
+ padding: 30px;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+
+}
+.card .Top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+
+}
+.card img{
+    height: 40px;
+    width: 40px;
+    padding: 3px;
+    border-radius: 50%;
+    border: 1px solid #dadada;
+}
+.card button{
+    display: flex;
+    align-items: center;
+    border: 1px solid #dadada;
+    padding: 3px 6px;
+    font-size: 15px;
+    border-radius: 5px;
+    gap: 3px;
+    background-color: transparent;
+    color: #695b5b;
+}
+
+.middle h1{
+font-size: 18px;
+font-weight: 500;
+}
+.middle h1 span{
+    font-size: 10px;
+    font-weight: 400;
+    color: #8b8b8b;
+    display: flex;
+}
+.middle .tag{
+    display: flex;
+    gap: 5px;
+    margin-top: 9px;
+}
+.middle h2{
+    font-size: 20px;
+
+}
+.middle .tag h4{
+    font-size: 14px;
+    background-color: #dadada;
+    color: #2b2626;
+    margin-top: 12px;
+    padding: 3px 6px;
+    font-weight: 400;
+}
+
+.botom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #2b2626;
+    padding-top: 15px;
+}
+.botom button{
+    background-color: black;
+    color: white;
+    padding: 5px 10px ;
+    border: none;
+    column-width: 600;
+    border-radius: 5px;
+
+}
+.botom h3{
+    font-size: 17px;
+}
+.botom p{
+    font-size: 17px;
+    color: #8b8b8b;
+
+}
